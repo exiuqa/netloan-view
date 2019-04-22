@@ -10,14 +10,19 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "core-js": "^2.6.5",
+    "countup": "^1.8.2",
+    "js-cookie": "^2.2.0",
+    "md5": "^2.2.1",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^8.0.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
-  "devDependencies": {
+  "devDependencies": {    
+    "@types/js-cookie": "^2.2.2",
     "@types/chai": "^4.1.0",
     "@types/mocha": "^5.2.4",
     "@vue/cli-plugin-babel": "^3.5.0",
@@ -36,6 +41,7 @@
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "lint-staged": "^8.1.4",
+    "tslint-config-standard": "^8.0.1",
     "typescript": "^3.2.1",
     "vue-template-compiler": "^2.5.21"
   },
